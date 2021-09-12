@@ -114,7 +114,7 @@ break
 
 fi
 
-let count+=1
+let count+=1000
 
 done
 
@@ -201,7 +201,7 @@ break
 
 fi
 echo $count
-let count+=1
+let count+=1000
 
 done
 
@@ -270,7 +270,7 @@ fi
 
 fi
 
-let count+=1
+let count+=1000
 
 done
 
@@ -410,7 +410,7 @@ done
 increase_followers() {
 
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling celebgrams\e[0m\n"
-printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +3000 in 1 hour \e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] It can increase your followers up to about +1000 in 1 hour \e[0m\n"
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Press Ctrl + C to stop \e[0m\n"
 sleep 5
 
@@ -427,7 +427,6 @@ therock="232192182"
 kylie="12281817"
 jelopez="305701719"
 messi="427553890"
-dhivya="230030312"
 
 dualipa="12331195"
 mileycyrus="325734299"
@@ -468,8 +467,8 @@ fi
 sleep 3
 
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 6000 secs...\e[0m\n"
-sleep 6000
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 1 secs...\e[0m\n"
+sleep 1
 #unfollow
 for celeb in $(cat celeb_id); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
@@ -486,8 +485,8 @@ fi
 
 sleep 3
 done
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 1 secs...\e[0m\n"
+sleep 1
 
 
 done
